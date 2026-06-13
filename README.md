@@ -128,3 +128,8 @@ tests/         offline test suite
 ## License
 
 MIT
+
+
+![Python](https://img.shields.io/badge/python-3.11+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
