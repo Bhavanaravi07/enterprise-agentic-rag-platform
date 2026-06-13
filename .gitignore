@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.env
+*.index
+*.meta.pkl
+observability.db
+*.db
+.venv/
+venv/
+.pytest_cache/
+data/faiss*

@@ -1,0 +1,7 @@
+ACME Analytics Platform — Quick Reference
+
+Authentication: The platform uses OAuth2 with role-based access control (RBAC).
+Roles include employee, manager, finance, and admin. API tokens expire after 24 hours.
+
+Data Retention: Query logs are retained for 90 days. PII is automatically redacted
+from logs. Customers on the Enterprise tier may configure custom retention windows.

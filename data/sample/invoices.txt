@@ -1,0 +1,3 @@
+Invoice INV-552 — Vendor: CloudHost Inc — Amount: $1,200.00 — Status: Disputed
+Invoice INV-553 — Vendor: OfficeSupply Co — Amount: $340.50 — Status: Paid
+Invoice INV-554 — Vendor: Travel Agency — Amount: $2,750.00 — Status: Pending finance approval

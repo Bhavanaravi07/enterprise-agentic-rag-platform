@@ -1,0 +1,12 @@
+FROM python:3.11-slim
+
+ENV PYTHONUNBUFFERED=1
+WORKDIR /code
+
+RUN pip install --no-cache-dir streamlit>=1.33 requests>=2.31
+
+COPY frontend ./frontend
+
+EXPOSE 8501
+CMD ["streamlit", "run", "frontend/streamlit_app.py", \
+     "--server.address=0.0.0.0", "--server.port=8501"]

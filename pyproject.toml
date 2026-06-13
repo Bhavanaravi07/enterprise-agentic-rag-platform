@@ -1,0 +1,9 @@
+[project]
+name = "enterprise-agentic-rag-platform"
+version = "1.0.0"
+description = "Enterprise Agentic RAG platform with MCP tools, hybrid retrieval, guardrails, and observability"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
